@@ -70,8 +70,8 @@ body {
     position: relative;
  }
  
- .portfolio h6, .password h6 { 
-    position: absolute; 
+ .portfolio h6, .password h6, .group-project-1 h6 { 
+    position: relative; 
     top: 10px; 
     left: 0; 
     width: 100%; 
@@ -81,7 +81,7 @@ body {
     font-size: x-large;
  }
  
-.portfolio h6 span, .password h6 span {
+.portfolio h6 span, .password h6 span, .group-project-1 h6 span {
     color: white;
     letter-spacing: -1px;  
     background: rgb(0, 0, 0); /* fallback color */
